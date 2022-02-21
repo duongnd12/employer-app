@@ -1,4 +1,3 @@
-import { Facebook } from '../../stories/Home/Job.stories';
 import styled, { css } from "styled-components";
 
 export const DetailContainer = styled.div`

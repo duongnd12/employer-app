@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "antd";
 
-import { SliderContainer, ContentStyle } from "./Slider.styled";
+import { ContentStyle } from "./Slider.styled";
 
 import Slide1 from '../../assets/images/slideImage.svg'
 

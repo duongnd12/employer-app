@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import DetailContent from './DetailContent'
 import { DetailContainer, Header, HideBtn, BtnDetail } from './Detail.styled'
 import Button from '../Button'
 

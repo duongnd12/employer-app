@@ -8,9 +8,11 @@ const callback = (key: any) => {
   console.log(key);
 };
 
-interface ISubTabProps {}
+interface ISubTabProps {
+  width?: number;
+}
 
-const SubTab = ({}: ISubTabProps) => {
+const SubTab = ({width}: ISubTabProps) => {
   return (
     <NewTabs onChange={callback} type="card">
       <TabPane tab="Description" key="1">

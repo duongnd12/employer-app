@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 
 import { RateContainer, RateResult, StarContainer, Star, Oders, Action, Icon} from './Rate.styled';

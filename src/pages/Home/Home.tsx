@@ -2,7 +2,7 @@ import React from "react";
 
 import Tab from "../../components/Tab";
 
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 
 import { HomeContainer, Navigation, NewButton } from "./Home.styled";
 import { Link } from "react-router-dom";

@@ -3,7 +3,7 @@ import { Drawer, Slider } from "antd";
 
 import { FilterOutlined } from "@ant-design/icons";
 
-import "antd/dist/antd.css";
+import "antd/dist/antd.min.css";
 
 import {
   NewButton,
