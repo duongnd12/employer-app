@@ -1,4 +1,4 @@
-import { Position } from './../Job/Job.styled';
+// import { Position } from './../Job/Job.styled';
 import styled, { css } from "styled-components";
 
 export const NavigationContainer = styled.div`

@@ -12,14 +12,15 @@ import CertificationsIcon from "../../assets/icons/ResumeIcon/NavigationIcon/cer
 import SkillsIcon from "../../assets/icons/ResumeIcon/NavigationIcon/skills.svg";
 import HobbiesIcon from "../../assets/icons/ResumeIcon/NavigationIcon/hobbies.svg";
 import LanguagesIcon from "../../assets/icons/ResumeIcon/NavigationIcon/languages.svg";
-import PrivateIcon from "../../assets/icons/ResumeIcon/NavigationIcon/private.svg";
+// import PrivateIcon from "/assets/icons/ResumeIcon/NavigationIcon/privateIcon.svg";
 
 import { NavigationContainer, Icon, NavList } from "./ResumeNavigation.styled";
 
 interface INavProps {
+  width?: number;
 }
 
-const ResumeNavgigation = ({ }: INavProps) => {
+const ResumeNavgigation = ({width} :INavProps) => {
   const [show, setShow] = useState<boolean>(false);
 
   const handleClick = () => {
@@ -42,7 +43,7 @@ const ResumeNavgigation = ({ }: INavProps) => {
           <Icon src={SkillsIcon} alt="icon-Skills" />
           <Icon src={HobbiesIcon} alt="icon-Hobbies" />
           <Icon src={LanguagesIcon} alt="icon-Languages" />
-          <Icon src={PrivateIcon} alt="icon-Private" />
+          <Icon src={LanguagesIcon} alt="icon-Private" />
         </NavList>
       )}
     </NavigationContainer>

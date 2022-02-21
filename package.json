@@ -66,6 +66,7 @@
     "@storybook/preset-create-react-app": "^4.0.0",
     "@storybook/react": "^6.4.12",
     "@types/styled-components": "^5.1.20",
+    "mini-css-extract-plugin": "2.4.5",
     "webpack": "^5.66.0"
   }
 }

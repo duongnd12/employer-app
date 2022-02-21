@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <HomeContainer>
       <Navigation>
+        {alert('Sử dụng màn hình web mobile để có trải nghiệm tốt nhất! 🥰')}
         <h3>LanceHub</h3>
         <Link to = "create"><NewButton>Create Job</NewButton></Link>
         <Link to = "resume"><NewButton>Resume</NewButton></Link>
