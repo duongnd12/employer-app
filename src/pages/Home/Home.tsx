@@ -16,7 +16,7 @@ const Home = () => {
         <Link to = "resume"><NewButton>Resume</NewButton></Link>
       </Navigation>
       <Tab/>
-        {alert('Sử dụng màn hình web mobile để có trải nghiệm tốt nhất! 🥰')}
+        {window.outerWidth > 820 ? alert('Sử dụng màn hình web mobile để có trải nghiệm tốt nhất! 🥰') : null}
     </HomeContainer>
   );
 };
